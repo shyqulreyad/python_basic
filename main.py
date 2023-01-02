@@ -72,7 +72,7 @@ print('H' == 72)
 #not ture = false
 #not false = true
 
-lx = True
+lx = False
 ly = False
 lz = True
 lm = False
@@ -93,3 +93,17 @@ print (ly and lm)
 # print(eval(a) + eval(b))
 #output or print function
 print('hi reyad \n' *10)
+#control statements
+if lx :
+    print('hi there ')
+else :
+    print('bye')
+
+n = eval(input('enter any number'))
+if n > 0 :
+    print('value is greater than Zero')
+elif n== 0:
+    print('value is zero')
+else :
+    print('value is smaller than zero')
+print('end of program')
