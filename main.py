@@ -20,3 +20,9 @@ res = a + c
 print (res)
 print(id(res))
 print(keyword.kwlist)
+print(type(True))
+
+x= 10
+y = 20
+z = x < y
+print(z)
