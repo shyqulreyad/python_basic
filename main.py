@@ -26,3 +26,14 @@ x= 10
 y = 20
 z = x < y
 print(z)
+g= None
+print(type(g))
+print(g)
+print(id(g))
+#arithmetic operators
+print (4-12)
+print(4*2)
+print(13.56%4.56 )
+print(20**3.7)
+print(10 // 2.5)
+print(-5 // 2 )
