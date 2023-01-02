@@ -7,6 +7,9 @@ print(title)
 heading = '''it's a multiple line 
 heading
 like i can add more line into this'''
+#when we have single or double quote in string we have to use tripple quote like
+example = ''' it's a good "practice" '''
+print(example)
 print(heading)
 print('hi',my_name)
 a, b, c = 10, True, 1
