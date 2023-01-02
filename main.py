@@ -23,7 +23,7 @@ print(keyword.kwlist)
 print(type(True))
 
 x= 10
-y = 20
+y = -20
 z = x < y
 print(z)
 g= None
@@ -37,3 +37,19 @@ print(13.56%4.56 )
 print(20**3.7)
 print(10 // 2.5)
 print(-5 // 2 )
+
+#relational operators
+print (x < y)
+print(x > y)
+cx = 'H'
+cy = 'p'
+print(ord(cx))
+print(ord(cy))
+ax = 'Hitttt'
+ay = 'hi'
+#on stirng comparision it compare unicode of the char
+print(ax > ay)
+bx = 'aa'
+by = 10
+# this comparision is not available
+print(bx> by)
