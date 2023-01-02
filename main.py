@@ -52,4 +52,33 @@ print(ax > ay)
 bx = 'aa'
 by = 10
 # this comparision is not available
-print(bx> by)
+#print(bx> by)
+print('H' == 72)
+
+#logical operation
+#AND
+#True and True => True
+#True and False => False
+#False and True => False
+#False and False => False
+
+#OR
+#True or True => True
+#True or False => True
+#False of True => True
+#False or False => False
+
+#NOT
+#not ture = false
+#not false = true
+
+lx = True
+ly = False
+lz = True
+lm = False
+print (lx and ly)
+print (lx and lz)
+print (lx or lz)
+print (not lx)
+print (ly and lm)
+
