@@ -82,3 +82,12 @@ print (lx or lz)
 print (not lx)
 print (ly and lm)
 
+#input function
+xi = input('enter value')
+print(xi)
+print (type(xi))
+
+a = input('enter first value ')
+b = input('enter second value')
+#input function always return string so to convert it into integer or float we can use int() & float() to avoid error we can use eval() function
+print(eval(a) + eval(b))
