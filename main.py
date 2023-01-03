@@ -99,11 +99,26 @@ if lx :
 else :
     print('bye')
 
-n = eval(input('enter any number'))
-if n > 0 :
-    print('value is greater than Zero')
-elif n== 0:
-    print('value is zero')
-else :
-    print('value is smaller than zero')
-print('end of program')
+# n = eval(input('enter any number'))
+# if n > 0 :
+#     print('value is greater than Zero')
+# elif n== 0:
+#     print('value is zero')
+# else :
+#     print('value is smaller than zero')
+# print('end of program')
+
+#range function
+
+x =range(5)
+print(x)
+print(type(x))
+print(x[3])
+
+y = range(5,10)
+print(y)
+print(y[3])
+xl = range(2,10,2)
+print(xl[2])
+xc = range(10, 0, -1 )
+print(xc[4])
