@@ -120,5 +120,20 @@ print(y)
 print(y[3])
 xl = range(2,10,2)
 print(xl[2])
+#range function always work on integer
 xc = range(10, 0, -1 )
+#for loop
+for i in xl:
+    print(i)
 print(xc[4])
+# n = int(input('enter value:'))
+#
+# i =1
+# while i<=n:
+#     print(i)
+#     i = i+1
+
+#for loop
+name = input('enter your name')
+for ch in name:
+    print(ch)
