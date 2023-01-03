@@ -134,6 +134,20 @@ print(xc[4])
 #     i = i+1
 
 #for loop
-name = input('enter your name')
-for ch in name:
-    print(ch)
+# name = input('enter your name')
+# for ch in name:
+#     print(ch)
+#break and continue
+l = [10, 45, 87, 2 ,5 ,22,20,44,16]
+# n= int(input('enter search key'))
+#
+# for i in l:
+#     if i == n:
+#         print('found')
+#         break
+
+for i in l:
+    if i%2 != 0:
+        continue
+        #once the condition is true. the loop will escape the blow print code
+    print(i)
