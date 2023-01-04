@@ -147,7 +147,15 @@ l = [10, 45, 87, 2 ,5 ,22,20,44,16]
 #         break
 
 for i in l:
-    if i%2 != 0:
+    if i%2 == 0:
         continue
         #once the condition is true. the loop will escape the blow print code
     print(i)
+
+# for loop
+l = [10, 3, 34, 65, 90, 12, 36, 20]
+for i in l:
+    if i%2 == 0:
+        print(i, 'is an even value')
+    else:
+        print(i, 'is an odd value')
