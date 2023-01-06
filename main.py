@@ -171,3 +171,13 @@ l2.extend(['hi there',000.3])
 print(l2)
 del(l2[5])
 print(l2)
+l3 = l2[2:6]
+print(l3)
+my_str = 'f,m,e,q,a,n,e'
+str = my_str.split(",")
+print(str)
+print(len(str))
+str.sort()
+print(str)
+str.reverse()
+print(str)
