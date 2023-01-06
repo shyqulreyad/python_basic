@@ -191,3 +191,15 @@ print(min(l10))
 print(max(l10))
 print( 45 in l10)
 print( 45 not in l10)
+
+l1 = [10,34,65,34,56,12]
+l2 = [10,34,65,34,56,12]
+l3 =l2
+
+print(l1 is l2)
+#it returns false because l1 and l2 is diffrent object
+print(l2 is l3)
+#it returns true because l2 and l3 is same
+
+print(l1 == l2)
+#it returns true
