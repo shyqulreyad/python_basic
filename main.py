@@ -181,3 +181,13 @@ str.sort()
 print(str)
 str.reverse()
 print(str)
+my_num = '10,20,11,9,3,6,4,8'
+num = my_num.split(',')
+print(num)
+
+l10= [10, 45, 87, 2 ,5 ,22,20,44,16]
+print(sum(l10))
+print(min(l10))
+print(max(l10))
+print( 45 in l10)
+print( 45 not in l10)
