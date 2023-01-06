@@ -159,3 +159,15 @@ for i in l:
         print(i, 'is an even value')
     else:
         print(i, 'is an odd value')
+#list
+l = [10, 'hello',3.5]
+print(l)
+l[1] = 'hi'
+print(l)
+l2 = l+[43,45]
+l2.insert(2,'hello')
+l2.append(90)
+l2.extend(['hi there',000.3])
+print(l2)
+del(l2[5])
+print(l2)
