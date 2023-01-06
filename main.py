@@ -159,9 +159,3 @@ for i in l:
         print(i, 'is an even value')
     else:
         print(i, 'is an odd value')
-
-for i in l:
-    if i%2 != 0:
-        print(i, 'is an odd value')
-    else:
-        print(i, 'is an even value')
