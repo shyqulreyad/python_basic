@@ -204,8 +204,21 @@ print(l2 is l3)
 print(l1 == l2)
 #it returns true
 #dictonaries
-d ={'usa':100,'uk':200,'india':400}
+d ={'usa':100,'uk':[200,'london'],'india':(3,10)}
 print(d)
 print(len(d))
 print(d.keys())
 print(d.values())
+print(d['usa'])
+print(d['uk'][1])
+del(d['usa'])
+print(d)
+del(d['uk'][0])
+d['bangladesh'] = 600
+print(d)
+
+for i in d:
+    print(i,d[i])
+
+print('usa' in d)
+print('bangladesh' in d)
