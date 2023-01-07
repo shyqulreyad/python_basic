@@ -203,3 +203,9 @@ print(l2 is l3)
 
 print(l1 == l2)
 #it returns true
+#dictonaries
+d ={'usa':100,'uk':200,'india':400}
+print(d)
+print(len(d))
+print(d.keys())
+print(d.values())
