@@ -229,6 +229,6 @@ def sum(a,b):
 sum(45,23)
 name = 'reyad'
 i = 1
-while i < 100:
+while i <= 5:
     print (i,name)
     i +=1
