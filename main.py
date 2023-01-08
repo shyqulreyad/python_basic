@@ -222,3 +222,13 @@ for i in d:
 
 print('usa' in d)
 print('bangladesh' in d)
+
+#function in python
+def sum(a,b):
+    return print( a+b)
+sum(45,23)
+name = 'reyad'
+i = 1
+while i < 100:
+    print (i,name)
+    i +=1
