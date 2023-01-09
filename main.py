@@ -232,3 +232,8 @@ i = 1
 while i <= 5:
     print (i,name)
     i +=1
+r = True
+if r :
+    print ('r has value')
+else :
+    print ('r has no value')
