@@ -237,3 +237,16 @@ if r :
     print ('r has value')
 else :
     print ('r has no value')
+
+
+# String format method
+
+name = 'Shyqul'
+age = 22
+
+print('My name is {} . I am {} years old'.format(name,age))
+
+#user input
+
+name = input('what is your name?')
+print(name)
